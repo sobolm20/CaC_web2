@@ -1,2 +1,2 @@
-# CaC_web2
+# cac_web2
 Django
