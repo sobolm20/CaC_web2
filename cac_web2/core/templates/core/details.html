@@ -1,0 +1,14 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+{% block header %}{% endblock header %}
+{% block imgheader %}{% endblock imgheader %}
+{% block content %}
+<section class="container d-flex flex-grow-1">
+    <div class="eventos" id='detailscomp'>
+    </div>    
+</section>
+{% endblock content %}
+{% block pielink %}
+<script src="{% static 'core/js/details.js' %}"></script>
+{% endblock pielink %}
