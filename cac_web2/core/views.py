@@ -11,4 +11,7 @@ def contact(request):
     return render(request, "core/contact.html")
 
 def details(request):
-    return render(request, "core/details.html")
+    return render(request, "core/details.html?id=${card.idMeal}")
+
+def portfolio(request):
+    return render(request, "core/portfolio.html")
